@@ -1,0 +1,14 @@
+PODS:
+  - NDPhraseParser (0.1.0)
+
+DEPENDENCIES:
+  - NDPhraseParser (from `../`)
+
+EXTERNAL SOURCES:
+  NDPhraseParser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NDPhraseParser: 4be210a8992456db1205c52f07c745c383cecf9a
+
+COCOAPODS: 0.36.0

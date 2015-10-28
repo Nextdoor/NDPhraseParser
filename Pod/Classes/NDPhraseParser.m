@@ -351,7 +351,7 @@ NSString *const NDPhraseParserErrorDomain = @"com.nextdoor.NDPhraseParser";
 - (void)consumeOneCharacter {
     self.currentIndex++;
     self.currentChar =
-        (self.currentIndex == self.pattern.length) ? 0 : [self.pattern characterAtIndex:self.currentIndex];
+    (self.currentIndex == self.pattern.length) ? 0 : [self.pattern characterAtIndex:self.currentIndex];
 }
 
 

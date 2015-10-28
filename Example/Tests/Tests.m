@@ -15,15 +15,16 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 
+
 @import XCTest;
 
-#import "NDPhraseParser.h"
+#import <NDPhraseParser.h>
 
-@interface NDPhraseParserTest : XCTestCase
+@interface Tests : XCTestCase
 
 @end
 
-@implementation NDPhraseParserTest
+@implementation Tests
 
 
 - (void)testStringWithNoTokens {

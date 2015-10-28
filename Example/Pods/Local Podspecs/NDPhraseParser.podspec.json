@@ -1,0 +1,25 @@
+{
+  "name": "NDPhraseParser",
+  "version": "0.1.0",
+  "summary": "A short description of NDPhraseParser.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NDPhraseParser",
+  "license": "MIT",
+  "authors": {
+    "Sean McQueen": "mcqueen@nextdoor.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NDPhraseParser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "NDPhraseParser": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
