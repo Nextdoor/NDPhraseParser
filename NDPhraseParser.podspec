@@ -11,12 +11,10 @@ Pod::Spec.new do |s|
                        which we use in production at Nextdoor.
                      DESC
 
-  # TODO(McQueen): bring this back when it is a public repo - or use OSS website when it exists
-  # s.homepage         = "https://github.com/Nextdoor/NDPhraseParser"
-  s.homepage         = 'http://nextdoor.com'
+  s.homepage         = "https://github.com/Nextdoor/NDPhraseParser"
   s.license          = 'Apache 2.0'
   s.author           = { "Sean McQueen" => "mcqueen@nextdoor.com" }
-  s.source           = { :git => "https://github.com/Nextdoor/NDPhraseParser.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Nextdoor/NDPhraseParser.git", :tag => '0.1.0' }
   s.social_media_url = 'https://twitter.com/NextdoorEng'
 
   s.platform     = :ios, '7.0'
