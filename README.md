@@ -25,14 +25,12 @@ if (!error) {
 Download
 --------
 
-```bash
-pod install NDPhraseParser
-```
+TODO: publish to pods
 
 License
 -------
 
-    Copyright 2013 Nextdoor.com, Inc.
+    Copyright 2015 Nextdoor.com, Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
