@@ -3,19 +3,30 @@ NDPhraseParser - iOS string formatting
 
 [![license](http://img.shields.io/badge/license-apache_2.0-red.svg?style=flat)](https://github.com/Nextdoor/NDPhraseParser/blob/master/LICENSE)[![Build Status](https://travis-ci.org/Nextdoor/NDRefresh.svg?branch=master)](https://travis-ci.org/Nextdoor/NDPhraseParser)
 
-This is an Objective-C port of (some of) [Square's Android Phrase library](https://github.com/square/phrase). It allows you to format a string with named keys and context, like Python's format function:
+This is an Objective-C port of (some of) [Square's Android Phrase library](https://github.com/square/phrase). It allows you to format a string with named keys and context, like Python:
 
 ```python
-'{user_name} lives in {city_name}'.format(user_name='Sean McQueen', city_name='San Francisco')
+'There are {num_neighborhoods} in {city_name}'.format(num_neighborhoods='200', city_name='San Francisco')
 ```
 
 Example:
 --------
 
+```swift
+let pattern : String = "{user_name} lives in {neighborhood_name}"
+let context : [String:String] = ["user_name": "Sean McQueen", "neighborhood_name": "Lower Nob Hill"]
+do {
+    let formattedString : String = try NDPhraseParser.formatStringWithPattern(pattern, context: context)
+    // use formattedString
+} catch let error as NSError {
+    // handle error
+}
+```
+
 ```obj-c
 NSError *error;
-NSString *pattern = @"{user_name} lives in {city_name}";
-NSDictionary *context = @{@"user_name": @"Sean McQueen", @"city_name": "San Francisco"};
+NSString *pattern = @"View {num_replies} replies to your recent post!";
+NSDictionary *context = @{@"num_replies": @"6"};
 NSString *formattedString = [NDPhraseParser formatStringWithPattern:pattern context:context errorPtr:&error];
 if (!error) {
   // use formattedString
@@ -25,7 +36,7 @@ if (!error) {
 Download
 --------
 
-TODO: publish to pods
+```pod install NDPhraseParser```
 
 License
 -------
