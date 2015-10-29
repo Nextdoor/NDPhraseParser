@@ -1,7 +1,7 @@
 NDPhraseParser - iOS string formatting
 ======================================
 
-[![license](http://img.shields.io/badge/license-apache_2.0-red.svg?style=flat)](https://github.com/Nextdoor/NDPhraseParser/blob/master/LICENSE)[![Build Status](https://travis-ci.org/Nextdoor/NDRefresh.svg?branch=master)](https://travis-ci.org/Nextdoor/NDPhraseParser)
+[![license](http://img.shields.io/badge/license-apache_2.0-red.svg?style=flat)](https://github.com/Nextdoor/NDPhraseParser/blob/master/LICENSE) | [![Build Status](https://travis-ci.org/Nextdoor/NDRefresh.svg?branch=master)](https://travis-ci.org/Nextdoor/NDPhraseParser) | [![Cocoapods](https://img.shields.io/cocoapods/v/NDPhraseParser.svg)](http://cocoadocs.org/docsets/NDPhraseParser/0.1.0/)
 
 This is an Objective-C port of (some of) [Square's Android Phrase library](https://github.com/square/phrase). It allows you to format a string with named keys and context, like Python:
 
